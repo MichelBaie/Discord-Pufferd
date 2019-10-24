@@ -1,0 +1,44 @@
+{
+  "pufferd": {
+    "type": "node",
+    "display": "Discord Bot",
+    "install": {
+      "commands": [
+        {
+          "commands": [
+            "npm install discord.js -s"
+          ],
+          "type": "command"
+        }
+      ]
+    },
+    "run": {
+        "stop": "stop",
+        "pre": [],
+        "post": [],
+        "arguments": [
+          "app.js"
+        ],
+        "program": "node"
+      },
+    "environment": {
+      "type": "standard"
+    },
+    "data": {
+      "memory": {
+        "value": "50",
+        "required": true,
+        "desc": "La mémoire associée à votre app js.",
+        "display": "RAM (MB)",
+        "internal": true
+      },
+      "ip": {
+        "value": "0.0.0.0",
+        "required": true,
+        "desc": "L'ip que nous donnons à votre App.",
+        "display": "IP",
+        "internal": true
+      }
+    }
+  }
+}
