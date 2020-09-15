@@ -1,14 +1,4 @@
-# Discord-Pufferd
-A PufferPanel Discord Bot Template.
+# Discord bot on PufferPanel
 
-
-View Wiki for more Informations !
-WARNING : The power off function is not working ! You need to use the "kill it" button !
-
----
-
-Une template PufferPanel pour faire tourner un bot discord !
-
-
-Regardez le wiki pour plus d'informations ...
-Attention : On ne peut pas éteindre le Bot en utilisant le bouton "Power Off", il faudra systématiquement utiliser le bouton "kill it" !
+This egg is not isolated with Docker. If someone mal-intentioned get access to this egg, he can remove every files of others users.
+Use it only for a private project or production not for hosting or access to someone.
